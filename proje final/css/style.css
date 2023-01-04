@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin:0;
+
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #184d7c;
+    float: left;
+}
+nav{
+    float: right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #184d7c;
+}
+nav a:hover{
+    border-bottom: 2px solid #184d7c;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #184d7c;
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+#anasayfa{
+    background-color: gray;
+    height: 600px;
+    background-image: url("../img/r2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+#icerik{
+    position: absolute;
+    top:18%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    color: #fffffffa;
+    opacity: 0.6;
+    font-size: 19px;
+}
+#hakkimizda{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+h3{
+    font-size: 55px;
+    color: #184d7c;
+    text-shadow: 0px 1px 1px black;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+#sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    width: 400px;
+    color: #445c6e;
+}
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+#h5sol,  #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #184d7c;
+    font-weight: 600;
+    float: left;
+}
+#sag{
+    float: left;
+    margin-left: 15px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8; 
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.mt100{
+    margin-top: 100px;
+}
+#pson{
+    color: #999;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100;
+}
+#kategoriler{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+    
+    
+}
+
+.kat{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+.baslikkat{
+    font-size: 15px;
+    color: #003666;
+}
+.katp{
+    color: #888;
+}
+.kat:hover{
+    border: 2px solid gray;
+}
+#ekip{
+    background-color: #003666;
+    padding: 50px;
+    height: 800px;
+    text-align: center;
+    top: 50%;
+}
+#ekiph3{
+    color: white;
+}
+.sutun-sol-sag{
+    width: 385px;
+    float: left;
+    padding: 50px;
+}
+.oval{
+    border-radius: 50%;
+}
+.ekipisim{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.ekipp{
+    color: #888;
+    font-size: 20px;
+}
+.social{
+    color: white;
+    border: 1px solid white;
+}
+.social:hover{
+    background-color: #888;
+}
+#iletisim{
+    background: url("../img/iletisim.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+#h3iletisim{
+    color: white;
+}
+#iletisimopak{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+#copyright{
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+#sagform{
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+textarea{
+    font-family: Arial;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: #3a7e64;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+#adresbaslik{
+    font-size: 30px;
+    color: white;
+}
+.adresp{
+    color: #ddd;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+#yukari{
+    color: white;
+    border: 1px solid #184d7c;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 9px 12px;
+    margin-top: 20px;
+}
+#main{
+    border-radius: 50%;
+    padding: 9px 12px;
+    margin-top: 20px;
+
+}
+#sidebar { 
+    width: 200px; 
+    float: left; 
+}
+
